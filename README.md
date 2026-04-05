@@ -93,7 +93,7 @@ The system will continuously stream simulated transaction batches every 3 second
 ### Sample Output
 
 <p align="center">
-  <img src="screenshots/SampleOutput.gif" alt="Sample Output" width="350"/>
+  <img src="screenshots/SampleOutput.gif" alt="Sample Output" width="500"/>
 </p>
 
 ```
