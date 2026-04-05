@@ -1,7 +1,7 @@
 # Rule-Based Risk Monitor
 
 <p align="center">
-  <img src="screenshots/LinkedInPostFace.png" alt="Rule Based Agents" width="200"/>
+  <img src="screenshots/LinkedInPostFace.png" alt="Rule Based Agents" width="400"/>
 </p>
 
 A rule-based, multi-agent system that continuously monitors, validates, and explains data quality and risk signals in near real-time — aligned with **BCBS 239** principles for risk data aggregation and reporting.
