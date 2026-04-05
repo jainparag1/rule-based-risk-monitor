@@ -1,5 +1,9 @@
 # Rule-Based Risk Monitor
 
+<p align="center">
+  <img src="screenshots/LinkedInPostFace.png" alt="Rule Based Agents" width="200"/>
+</p>
+
 A rule-based, multi-agent system that continuously monitors, validates, and explains data quality and risk signals in near real-time — aligned with **BCBS 239** principles for risk data aggregation and reporting.
 
 Built using **LangGraph** for agent orchestration, this system simulates a streaming financial transaction pipeline and runs four sequential agents to detect issues, identify root causes, and make actionable decisions.
