@@ -9,6 +9,7 @@ Built using **LangGraph** for agent orchestration, this system simulates a strea
 ## Architecture
 
 ![High Level Architecture](screenshots/hla.png)
+
 Streaming Data (pipelines/)
 ↓
 [DQ Agent] → [Risk Agent] → [RCA Agent] → [Decision Agent]
