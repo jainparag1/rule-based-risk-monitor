@@ -11,7 +11,7 @@ Built using **LangGraph** for agent orchestration, this system simulates a strea
 <!-- ![High Level Architecture](screenshots/hla.png) -->
 
 <p align="center">
-  <img src="screenshots/hla.png" alt="High Level Architecture" width="300"/>
+  <img src="screenshots/hla.png" alt="High Level Architecture" width="350"/>
 </p>
 
 ```
@@ -87,6 +87,10 @@ python main.py
 The system will continuously stream simulated transaction batches every 3 seconds, process them through the agent graph, and print findings to the console.
 
 ### Sample Output
+
+<p align="center">
+  <img src="screenshots/SampleOutput.gif" alt="Sample Output" width="350"/>
+</p>
 
 ```
 === NEW BATCH (LangGraph) ===
