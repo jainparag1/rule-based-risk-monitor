@@ -14,12 +14,13 @@ Built using **LangGraph** for agent orchestration, this system simulates a strea
   <img src="screenshots/hla.png" alt="High Level Architecture" width="700"/>
 </p>
 
+```
 Streaming Data (pipelines/)
 ↓
 [DQ Agent] → [Risk Agent] → [RCA Agent] → [Decision Agent]
 ↑__________LangGraph StateGraph (orchestrator/)↑
 
-
+```
 
 Each agent in the pipeline receives shared state and contributes its findings before passing control to the next node.
 
@@ -87,13 +88,14 @@ The system will continuously stream simulated transaction batches every 3 second
 
 ### Sample Output
 
+```
 === NEW BATCH (LangGraph) ===
 DQ Issues: ['Unusually high average transaction value']
 Risk Issues: ['High transaction volatility', 'Potential high-value fraud transaction']
 Root Cause: Abnormal transaction behavior detected
 Decision: ALERT
 
-
+```
 ---
 
 ## Rule Definitions
