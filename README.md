@@ -11,7 +11,7 @@ Built using **LangGraph** for agent orchestration, this system simulates a strea
 <!-- ![High Level Architecture](screenshots/hla.png) -->
 
 <p align="center">
-  <img src="screenshots/hla.png" alt="High Level Architecture" width="700"/>
+  <img src="screenshots/hla.png" alt="High Level Architecture" width="300"/>
 </p>
 
 ```
