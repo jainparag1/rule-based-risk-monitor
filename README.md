@@ -8,7 +8,11 @@ Built using **LangGraph** for agent orchestration, this system simulates a strea
 
 ## Architecture
 
-![High Level Architecture](screenshots/hla.png)
+<!-- ![High Level Architecture](screenshots/hla.png) -->
+
+<p align="center">
+  <img src="screenshots/hla.png" alt="High Level Architecture" width="700"/>
+</p>
 
 Streaming Data (pipelines/)
 ↓
@@ -34,6 +38,7 @@ Each agent in the pipeline receives shared state and contributes its findings be
 
 ## Project Structure
 
+```
 rule-based-risk-monitor/
 │
 ├── agents/
@@ -53,7 +58,7 @@ rule-based-risk-monitor/
 ├── main.py # Entry point — runs the monitoring loop
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
